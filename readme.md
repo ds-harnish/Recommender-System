@@ -26,7 +26,7 @@ In a nutshell, a recommender system will be built to recommend the retail items 
 - [K-Means Clustering using RFM](#K-Means-Clustering-using-RFM)
 - [Recommender System](#Recommender-System)
 - [Supervied Models](#Supervised-Models)
-- [Time Series, Seasonability-Analysis](#Time-Series, Seasonability-Analysis)
+- [Time Series, Seasonability Analysis](#Time-Series, Seasonability-Analysis)
 - [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 ## Data Collection
@@ -60,12 +60,12 @@ In the `Data Cleaning and EDA` of the project, the following tasks were performe
 ### Top 10 Items by Transactions
 These are the top 10 items by transaction count. 
 
-![top10items](Capstone/images/top10items.png)
+![top10items](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/top10items.png)
     
 ### Transaction Volume by Month
 Clearly, this is a retail dataset whereby we see higher sales volume in Q4 (festive season)
 
-![salesbymonth](Capstone/images/salesbymonth.png)
+![salesbymonth](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/salesbymonth.png)
 
 ## K-Means Clustering using RFM
 ---
@@ -74,12 +74,12 @@ In the `K-Means Clustering by RFM` of the project, K Means Clustering was perfor
 ### Dendrogram
 Dendrogram was used to have a general sense of how many clusters are there.
 
-![dendrogram](Capstone/images/dendrogram.png)
+![dendrogram](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/dendrogram.png)
 
 ### 3-D Scatterplot 
 Below is a 3D scatterplot of log_r, log_f, and log_m with 4 Clusters.
 
-![3dplot](Capstone/images/3dplot.png)
+![3dplot](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/3dplot.png)
 
 ### 2-D Pairplot
 Below is a 2D pairplot of log_r, log_f, and log_m with 4 Clusters. 
@@ -89,7 +89,12 @@ Cluster 2: 'Lost Customers'
 Cluster 3: 'Lost Customers with high spending'
 Cluster 4: 'Important Customers'
 
-![pairplot](Capstone/images/pairplot.png)
+![pairplot](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/pairplot.png)
+
+### Accuracies - Supervised Models
+A plot of the Decesion Tree and Logistic Regression model Test Accuracy scores taking users and the items being ordered by them into the account. 
+
+![accuracies](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/supervisedmodelaccuracies.png)
 
 ## Recommender System
 
@@ -98,18 +103,23 @@ In the `Recommender System` of the project, both the User-Based and Item-Based C
 
 A recommender system is the "call-to-action", whereby we should be able to achieve some results in terms of sales volume. This would then be more impactful for all the users across the organization.
 
-## Superviesd Models
+## Supervised Models
 
 In the `Supervised Models` of the project, both the User-Based and Item-Based Collborative Filtering were performed. 
-- For the user-based collaborative filtering, segmentation were used to seggregate the customers into a more targeted way.
 
-A recommender system is the "call-to-action", whereby we should be able to achieve some results in terms of sales volume. This would then be more impactful for all the users across the organization.
+## Time Series, Seasonability Analysis
+
+In the `Supervised Models` of the project, the main goal is to identify significant trends, seasonal patterns and residuals in products. Using advanced statistical analysis and visualization tools to analyze and interpret the temporal dynamics of the dataset
 
 ## Conclusion and Recommendation
----
+
 Building an internal Data Science team should be simple as many of the machine learning techniques could be found online, working together as an organization is probably the most important factor for a successful implementation. In a data science project, a clear business objective has to be set right from the start. This allows the project to be more productive and results-oriented. The modeling can be enhanced along the way. The stakeholder support and commitment is very important, the project has to be realistic and reap tangible results in small steps. A diverse team of domain experts (such as the marketers) are important to help in the modeling process. 
 
-For the start, this project should be able to let the marketing team understand more about the customers' behaviour as a cluster, this should help them in formulating a more informed marketing strategy to reach out to the various groups of customers.
+For the start, this project should be able to let the marketing team understand more about the customers' behaviour as a cluster, this should help them in formulating a more informed marketing strategy to reach out to the various groups of customers. 
+
+For an added layer, also did a seasonality analysis which should give an idea to the management the products to focus in to in a given month of the year. 
+
+Also, built a Logistic Regression and Decision Tree model with more than 97% test accuracy which could help the stakeholders getting a vision on which products and customers to focus in the upcoming festive season. 
 
 More data could be gathered to form a better clustering technique, such as the customers' demographic. More data is also needed to help to improve the recommender system. A/B testing should be performed to further evaluate the recommender system. 
 
