@@ -117,9 +117,9 @@ Building an internal Data Science team should be simple as many of the machine l
 
 For the start, this project should be able to let the marketing team understand more about the customers' behaviour as a cluster, this should help them in formulating a more informed marketing strategy to reach out to the various groups of customers. 
 
-For an added layer, also did a seasonality analysis which should give an idea to the management the products to focus in to in a given month of the year. 
+For an added layer, also did a seasonality analysis which should give an idea to the management the products to focus in to in a given month of the year as well as week. 
 
-Also, built a Logistic Regression and Decision Tree model with more than 97% test accuracy which could help the stakeholders getting a vision on which products and customers to focus in the upcoming festive season. 
+Also, built a Logistic Regression and Decision Tree model with more than 97% test accuracy which could help the stakeholders getting a vision on which specific products, customers in selected countries to focus in the upcoming festive season. 
 
 More data could be gathered to form a better clustering technique, such as the customers' demographic. More data is also needed to help to improve the recommender system. A/B testing should be performed to further evaluate the recommender system. 
 
