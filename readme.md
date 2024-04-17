@@ -60,7 +60,7 @@ In the `Data Cleaning and EDA` of the project, the following tasks were performe
 ### Top 10 Items by Transactions
 These are the top 10 items by transaction count. 
 
-![top10items](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/top10items.png)
+![top10items](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/top10itemsbyqty.png)
     
 ### Transaction Volume by Month
 Clearly, this is a retail dataset whereby we see higher sales volume in Q4 (festive season)
