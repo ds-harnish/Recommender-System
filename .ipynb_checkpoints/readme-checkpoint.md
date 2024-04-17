@@ -105,7 +105,7 @@ A recommender system is the "call-to-action", whereby we should be able to achie
 
 ## Supervised Models
 
-In the `Supervised Models` of the project, both the User-Based and Item-Based Collborative Filtering were performed. 
+In the `Supervised Models` of the project, both the User-Based and Item-Based Filtering were performed. 
 
 ## Time Series, Seasonability Analysis
 
