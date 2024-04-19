@@ -60,12 +60,12 @@ In the `Data Cleaning and EDA` of the project, the following tasks were performe
 ### Top 10 Items by Transactions
 These are the top 10 items by transaction count. 
 
-![top10items](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/top10itemsbyqty.png)
+![top10items](https://github.com/ds-harnish/Recommender-System/blob/main/images/top10itemsbyqty.png)
     
 ### Transaction Volume by Month
 Clearly, this is a retail dataset whereby we see higher sales volume in Q4 (festive season)
 
-![salesbymonth](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/salesbymonth.png)
+![salesbymonth](https://github.com/ds-harnish/Recommender-System/blob/main/images/salesbymonth.png)
 
 ## K-Means Clustering using RFM
 ---
@@ -79,7 +79,7 @@ Dendrogram was used to have a general sense of how many clusters are there.
 ### 3-D Scatterplot 
 Below is a 3D scatterplot of log_r, log_f, and log_m with 4 Clusters.
 
-![3dplot](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/3dplot.png)
+![3dplot](https://github.com/ds-harnish/Recommender-System/blob/main/images/3dplot.png)
 
 ### 2-D Pairplot
 Below is a 2D pairplot of log_r, log_f, and log_m with 4 Clusters. 
@@ -89,12 +89,12 @@ Cluster 2: 'Lost Customers'
 Cluster 3: 'Lost Customers with high spending'
 Cluster 4: 'Important Customers'
 
-![pairplot](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/pairplot.png)
+![pairplot](https://github.com/ds-harnish/Recommender-System/blob/main/images/pairplot.png)
 
 ### Accuracies - Supervised Models
 A plot of the Decesion Tree and Logistic Regression model Test Accuracy scores taking users and the items being ordered by them into the account. 
 
-![accuracies](https://git.generalassemb.ly/harnishshah25/Capstone---Recommender-System/blob/master/images/supervisedmodelaccuracies.png)
+![accuracies](https://github.com/ds-harnish/Recommender-System/blob/main/images/supervisedmodelaccuracies.png)
 
 ## Recommender System
 
@@ -109,7 +109,7 @@ In the `Supervised Models` of the project, both the User-Based and Item-Based Fi
 
 ## Time Series, Seasonability Analysis
 
-In the `Supervised Models` of the project, the main goal is to identify significant trends, seasonal patterns and residuals in products. Using advanced statistical analysis and visualization tools to analyze and interpret the temporal dynamics of the dataset
+In the `Time Series` of the project, the main goal is to identify significant trends, seasonal patterns and residuals in products. Using advanced statistical analysis and visualization tools to analyze and interpret the temporal dynamics of the dataset
 
 ## Conclusion and Recommendation
 
